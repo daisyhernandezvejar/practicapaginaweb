@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +10,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -27,9 +28,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-5">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,10 +43,15 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Servicios</a>
+            <a class="nav-link" href="servicios.html">Servicios</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="galerias.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galerias.html">
+              <span class="color-border text-white">Citas <i class="fa-solid fa-calendar-check fs-6 text-white"></i></span>
+            </a>
           </li>
         </ul>
       </div>
@@ -53,22 +59,16 @@
   </nav>
 
 
-
-     <!--
-        font-size: 40px;    Bootstrap -_-> fs-4
-        font-weight: 100 a 900=bold; Bootstrap -_-> fw-bold
-      -->
-
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/imagen1.png" class="d-block w-100" alt="...">
-      </div>
       <div class="carousel-item active">
         <img src="img/imagen4.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
         <img src="img/imagen3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/imagen1.png" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -79,48 +79,52 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div> <!-- Termina Slide-->
-
-
-  <div class="info mb-5"> SOL CLÍNICA COSMIATRA & SPA* nace de la ilusión y de la necesidad de ofrecer en ALTAMIRANO un
-    espacio único y novedoso, un espacio donde relajarse
-    sin la necesidad de tener que desplazarse lejos. Con más de 6 años de experiencia que nos avalan, con un equipo
-    humano que está en continua formación y que ofrece las últimas novedades en tratamientos,
-    tanto estéticos como terapéuticos, trabajando con las mejores firmas estéticas y maquinaria de última generación.
   </div>
 
 
-  <div class="container my-5 mb-3 p-5 ">
+
+  <div class="info mb-5">
+    <p>SOL CLÍNICA COSMIATRA & SPA* nace de la ilusión y de la necesidad de ofrecer en ALTAMIRANO un
+      espacio único y novedoso, un espacio donde relajarse
+      sin la necesidad de tener que desplazarse lejos. Con más de 6 años de experiencia que nos avalan, con un equipo
+      humano que está en continua formación y que ofrece las últimas novedades en tratamientos,
+      tanto estéticos como terapéuticos, trabajando con las mejores firmas estéticas y maquinaria de última generación.</p>
+  </div>
+
+
+  <div class="container mt-2 mt-sm-5 p-3 p-sm-5 ">
     <div class="row mt-5">
       <div class="col-12 col-sm-6 ">
         <img src="./img/imagen5.png" alt="" class="img-fluid">
       </div>
 
-      <div class="col-12 col-sm-6 article">
-        <article class="ms-5">
-          <h2 class="text-center color-cafe">Nosotros</h2>
-          <p>En nuestro SPA sabemos lo importante que es para ti mantener tu rostro limpio y cuidado, es por esa razón que nuestros productos son de la más alta calidad. No esperes más y luce un resultado profesional y limpio, 
+      <div class="col-12 col-sm-6">
+        <article class="ms-0 ms-sm-3">
+          <h2 class="text-center color-cafe mt-4 mt-sm-0 text-left">Nosotros</h2>
+          <p>En nuestro SPA sabemos lo importante que es para ti mantener tu rostro limpio y cuidado, es por esa razón
+            que nuestros productos son de la más alta calidad. No esperes más y luce un resultado profesional y limpio,
             contamos con un equipo altamente capacitado, luce un rostro limpio, cuidado y hermoso.</p>
         </article>
       </div>
     </div>
   </div>
 
-  <br>
+  <hr class="text-muted mx-5">
 
-  <div class="container mt-5 p-5">
+  <div class="container mt-2 mt-sm-5 p-3 p-sm-5">
     <div class="row">
 
       <div class="col-12 col-sm-6 article">
-        <article class="">
+        <article>
           <h2 class="text-center color-cafe">Masajes</h2>
-          <p>Renueva tu piel con nuestros tratamientos faciales que tenemos para el cuidado de tu piel, 
-            luce bella, luce radiante luce el sol que llevas dentro. Relaja el sistema nervioso eliminando el cansancio psíquico, elimina el dolor cervical y
+          <p>Renueva tu piel con nuestros tratamientos faciales que tenemos para el cuidado de tu piel,
+            luce bella, luce radiante luce el sol que llevas dentro. Relaja el sistema nervioso eliminando el cansancio
+            psíquico, elimina el dolor cervical y
             aumenta el nivel de oxígeno que llega al cerebro.</p>
         </article>
       </div>
       <div class="col-12 col-sm-6 ">
-        <video src="./video/videouno.mp4" controls class="img-fluid ms-5"></video>
+        <video src="./video/videouno.mp4" controls class="img-fluid ms-0 ms-sm-3"></video>
       </div>
     </div>
   </div>
@@ -132,7 +136,7 @@
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
         <div class="card">
-          <img src="img/clin.png" class="card-img-top" alt="...">
+          <img src="img/imagen2.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text"></p>
@@ -154,7 +158,7 @@
           <div class="card-body">
             <h5 class="card-title">Laminado de Cejas:</h5>
             <p class="card-text">Técnica sin dolor para lograr un aspecto natural.
-              Es un semipermanente el cual le da una forma fija al vello; además incluye diseño ..</p>
+              Es un semipermanente el cual le da una forma fija al vello; además incluye diseño.</p>
           </div>
         </div>
       </div>
@@ -169,10 +173,17 @@
         </div>
       </div>
     </div>
-  </div>
+    <br> <br> 
+
+    
+    <center> <button class="btn btn-primary " id="color-cafe" role="link" onclick="window.location='servicios.html'">Más Servicios</button></center>
+  </div> 
+
+  
 
 
-  <footer> <!--comienza footer-->
+  <footer>
+    <!--comienza footer-->
     <div class="container">
       <!-- footer1-->
       <div class="row">
@@ -195,9 +206,11 @@
         <!-- ICONOS DEL SITIO -->
         <div class="col-12 col-sm-4 pd-footer text-center p-5">
           <h5 class="text-center cafe">Siguenos</h5>
-          <a href="https://www.facebook.com/SOLClinicacosmiatra" target="_blank"><i class="fa-brands fa-facebook icono-facebook"></i></a>
-          <a href="https://instagram.com/solclinicacosm?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram icono-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-whatsapp icono-whatsapp"></i></a>
+          <a href="https://www.facebook.com/SOLClinicacosmiatra" target="_blank"><i
+              class="fa-brands fa-facebook icono-facebook"></i></a>
+          <a href="https://instagram.com/solclinicacosm?igshid=YmMyMTA2M2Y=" target="_blank"><i
+              class="fa-brands fa-instagram icono-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-whatsapp icono-whatsapp"></i></a>
         </div>
 
 
@@ -207,18 +220,18 @@
 
     </div>
     <!--termina el footer1-->
-    <div >
-    
-       <div class="derechos">
+    <div>
+
+      <div class="derechos">
         <p>Copyright © 2022 - By Daisy Hernandez</p>
-      
+
         <p>
-          <i class="fa-brands fa-facebook"></i> 
-          <i class="fa-brands fa-whatsapp"></i> 
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-whatsapp"></i>
           <i class="fa-brands fa-instagram"></i>
-          
+
         </p>
-       </div>
+      </div>
     </div>
   </footer>
 
@@ -226,7 +239,7 @@
 
 
 
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
