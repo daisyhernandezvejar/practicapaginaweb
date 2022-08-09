@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,7 +45,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="sobreNosotros.html">Sobre Nosotros</a></li>
-              <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+              <li><a class="dropdown-item" href="contacto.php">Contacto</a></li>
               <li><a class="dropdown-item" href="preguntas.html">Preguntas</a></li>
             </ul>
           </li>
@@ -101,43 +103,42 @@
       <div class="col-12 col-sm-7 p-3">
         <!--  columna 1 -->
         <h5 class="text-center">Contactanos</h5>
-        <form action="#" class="p-4">
+        <form action="validarDatos.php" class="p-4" method="post"> <!--aqui tengo quue poner el metodo post-->
           <div class="row">
             <div class="col-sm-6 mb-3">
               <div class="form-group">
-                <label class="required-field" for="firstName">Nombre</label>
-                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="nombre">
+                <label class="required-field" for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="nombre">
               </div>
             </div>
 
             <div class="col-sm-6 mb-3">
               <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" class="form-control" id="phone" name="phone" placeholder="(021)-454-545">
+                <label for="telefono">Telefono</label>
+                <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="(021)-454-545">
               </div>
             </div>
 
           
             <div class="col-sm-6 mb-3">
-              <div class="form-group">
-                <label for="lastName">Asunto</label>
-                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Appleseed">
+              <div class="form-group"
+                <label for="Asunto">Asunto</label>
+                <input type="text" class="form-control" id="asunto" name="asunto" placeholder="asunto">
               </div>
             </div>
 
             <div class="col-sm-6 mb-3">
               <div class="form-group">
-                <label class="required-field" for="email">Email</label>
-                <input type="text" class="form-control" id="email" name="email" placeholder="wendy.apple@seed.com">
+                <label class="required-field" for="correo">Email</label>
+                <input type="text" class="form-control" id="correo" name="correo" placeholder="wendy.apple@seed.com">
               </div>
             </div>
 
-          
 
             <div class="col-sm-12 mb-3">
               <div class="form-group">
-                <label class="required-field" for="message">Como podemos ayudarte?</label>
-                <textarea class="form-control" id="message" name="message" rows="4"
+                <label class="required-field" for="comentario">Comentario</label>
+                <textarea class="form-control" id="comentario" name="comentario" rows="4"
                   placeholder="Hi there, I would like to....."></textarea>
               </div>
             </div>
@@ -146,12 +147,14 @@
             <div class="col-sm-12 mb-3">
               <br>  
 
-              <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+              <button type="submit" name="submit"   class="btn btn-primary">Enviar</button>
             </div>
 
           </div>
         </form>
       </div>
+
+
 
 
       <div class="col-12 col-sm-5 p-3 aside">
@@ -193,10 +196,8 @@
       </div>
     </div>
   </div>
-
-
-
-
+ 
+  
 
 
   <br><br><br><br><br>
